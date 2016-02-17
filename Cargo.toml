@@ -1,0 +1,9 @@
+[package]
+name = "notification_osc_bridge"
+version = "0.1.0"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+
+[dependencies]
+
+notify-rust = "~3.0"
+osc = { git = "https://github.com/hoodie/rust-osc" }
